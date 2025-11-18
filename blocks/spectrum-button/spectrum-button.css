@@ -1,6 +1,6 @@
 
-@import url('@spectrum-css/vars/dist/spectrum-global.css');
-@import url('@spectrum-css/button/dist/index-vars.css');
+@import url('../../styles/spectrum/spectrum-global.css');
+@import url('../../styles/spectrum/button.css');
 
 .spectrum-button-block {
   display: flex;
