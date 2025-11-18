@@ -1,8 +1,8 @@
 export default function decorate(block) {
-  const button = block.querySelector('.fondue-button');
+ Selector('.spectrum-Button');
   if (button) {
     button.addEventListener('click', () => {
-      alert('Fondue button clicked!');
+      alert('Spectrum button clicked!');
     });
   }
 }

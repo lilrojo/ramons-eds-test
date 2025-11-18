@@ -33,9 +33,10 @@ npm i
 npm run lint
 ```
 
-## Fondue button Example
 
-```fondue-button
+## Spectrum Button Example
+
+```spectrum-button
 Click Me
 
 

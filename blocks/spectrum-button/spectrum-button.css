@@ -1,0 +1,22 @@
+
+@import '@spectrum-css/vars/dist/spectrum-global.css';
+@import '@spectrum-css/button/dist/index-vars.css';
+
+.spectrum-button-block {
+  display: flex;
+  justify-content: center;
+  padding: var(--spectrum-global-dimension-size-300);
+  background-color: var(--spectrum-global-color-gray-100);
+}
+
+.spectrum-Button {
+  font-family: var(--spectrum-global-font-family-base);
+  font-size: var(--spectrum-global-font-size-200);
+  color: var(--spectrum-button-text-color);
+  background-color: var(--spectrum-button-background-color);
+  border: none;
+  padding: var(--spectrum-button-padding-top) var(--spectrum-button-padding-right);
+  border-radius: var(--spectrum-button-border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

@@ -11,10 +11,10 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
-import decorativeFondueButton from '../blocks/fondue-button/fondue-button.js';
+import decorateSpectrumButton from './blocks/spectrum-button/spectrum-button.js';
 
 const blocks = {
-  'fondue-button': decorativeFondueButton,
+  'spectrum-button': decorateSpectrumButton,
 };
 
 export default blocks;

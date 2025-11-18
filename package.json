@@ -38,6 +38,7 @@
     "stylelint-config-standard": "38.0.0"
   },
   "dependencies": {
-    "@centene-platform/fondue-core-react": "^2.40.0"
+    "@spectrum-css/button": "^14.2.0",
+    "@spectrum-css/vars": "^9.0.8"
   }
 }
