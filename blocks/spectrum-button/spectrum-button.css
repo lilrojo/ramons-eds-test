@@ -1,6 +1,6 @@
 
-@import '@spectrum-css/vars/dist/spectrum-global.css';
-@import '@spectrum-css/button/dist/index-vars.css';
+@import url('@spectrum-css/vars/dist/spectrum-global.css');
+@import url('@spectrum-css/button/dist/index-vars.css');
 
 .spectrum-button-block {
   display: flex;
@@ -9,7 +9,7 @@
   background-color: var(--spectrum-global-color-gray-100);
 }
 
-.spectrum-Button {
+.spectrum-button {
   font-family: var(--spectrum-global-font-family-base);
   font-size: var(--spectrum-global-font-size-200);
   color: var(--spectrum-button-text-color);

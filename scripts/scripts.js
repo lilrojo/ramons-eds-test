@@ -11,7 +11,7 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
-import decorateSpectrumButton from './blocks/spectrum-button/spectrum-button.js';
+import decorateSpectrumButton from '../blocks/spectrum-button/spectrum-button.js';
 
 const blocks = {
   'spectrum-button': decorateSpectrumButton,
