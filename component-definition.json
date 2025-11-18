@@ -173,6 +173,21 @@
               }
             }
           }
+        },
+        {
+          "title": "Spectrum Button",
+          "id": "spectrum-button",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Spectrum Button",
+                  "model": "spectrum-button"
+                }
+              }
+            }
+          }
         }
       ]
     }

@@ -233,5 +233,41 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "spectrum-button",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Button Text",
+        "value": "Click Me"
+      },
+      {
+        "component": "aem-content",
+        "name": "href",
+        "label": "Link"
+      },
+      {
+        "component": "select",
+        "name": "variant",
+        "label": "Button Variant",
+        "options": [
+          {
+            "name": "Accent",
+            "value": "accent"
+          },
+          {
+            "name": "CTA",
+            "value": "cta"
+          },
+          {
+            "name": "Over Background",
+            "value": "overBackground"
+          }
+        ]
+      }
+    ]
   }
 ]
