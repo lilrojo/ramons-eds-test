@@ -33,6 +33,12 @@ npm i
 npm run lint
 ```
 
+## Fondue button Example
+
+```fondue-button
+Click Me
+
+
 ## Local development
 
 1. Create a new repository based on the `aem-boilerplate` template and add a mountpoint in the `fstab.yaml`

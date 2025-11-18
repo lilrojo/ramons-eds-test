@@ -11,6 +11,13 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
+import decorativeFondueButton from '../blocks/fondue-button/fondue-button.js';
+
+const blocks = {
+  'fondue-button': decorativeFondueButton,
+};
+
+export default blocks;
 
 /**
  * Moves all the attributes from a given elmenet to another given element.
